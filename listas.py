@@ -70,3 +70,20 @@ print(l2)
 print(max(l2))
 print(min(l2))
 
+# Criando uma lista com range
+# Quando vc cria objeto range ele não cria de imediato uma lista, é preciso converter
+# utilizando list
+l8 = range(0, 10)
+print(list(l8))
+
+# Uma forma mais verbosa de criar uma lista de numeros e iterar sob ela
+l9 = list(range(0, 100, 2))
+for num in l9:
+    print(num)
+
+l10 = [0, 1, 2, 3, 4, 5, 6, 7]
+soma = 0
+for valor in l10:
+    soma += valor
+print(soma)
+print(sum(l10))
