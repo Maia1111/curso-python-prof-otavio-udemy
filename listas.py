@@ -87,3 +87,4 @@ for valor in l10:
     soma += valor
 print(soma)
 print(sum(l10))
+
