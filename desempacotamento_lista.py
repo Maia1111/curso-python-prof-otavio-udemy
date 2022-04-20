@@ -16,3 +16,6 @@ lista2 = [1, 2, 3, 4, 5, 6, 8]
 # Gera um erro
 n4, n5, n6, *outra_lista = lista2
 print(n4, n5, n6, outra_lista)
+
+lista2.pop(1)
+print(lista2)
