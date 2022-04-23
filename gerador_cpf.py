@@ -22,4 +22,9 @@ for index in range(19):
         total = 0                   # Zera o total
         novo_cpf += str(d)          # Concatena o digito gerado no novo cpf
 
+# Imprimindo CPF sem mascara, somente números.
 print(novo_cpf)
+
+# Imprimindo CPF com mascara
+
+print(f'CPF GERADO: {novo_cpf[:3]}.{novo_cpf[3:6]}.{novo_cpf[6:9]}-{novo_cpf[9:11]}')
